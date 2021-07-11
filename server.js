@@ -219,5 +219,5 @@ io.on('connection', (socket) => {
 });
 
 
-//On dit à Node de se lancer sur le port 8080
+//On lance les serveur sur  le port 8080
 server.listen(8080, () => console.log('Le serveur est lancé sur le port : 8080'));
