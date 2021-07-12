@@ -62,7 +62,7 @@ app.use(function(req, res, next) {
 });
 
 
-// IO
+// On initialise socket.io
 
 var io = require('socket.io').listen(server);
 var connectedUsers = []
