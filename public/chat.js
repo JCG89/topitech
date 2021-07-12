@@ -4,7 +4,7 @@ var socket = io.connect('http://localhost:8080');
 
 // On demande le pseudo de la personne
 while(!pseudo) {
-    var pseudo = prompt('quel est ton nom ?');
+    var pseudo = prompt('quel est ton pseudo ?');
 }
 socket.emit('pseudo', pseudo);
 socket.emit('oldWhispers', pseudo);
