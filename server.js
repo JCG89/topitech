@@ -13,7 +13,7 @@ mongoose.connect('mongodb://localhost/Chat', { useNewUrlParser: true, useUnified
 if(err) {
     console.log(err)
 } else {
-    console.log('Connected to mongodb')
+    console.log('Connecter à  mongodb')
 }
 })
 
